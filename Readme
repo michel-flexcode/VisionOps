@@ -1,0 +1,73 @@
+VisionOps
+
+💡 Tip: If you get stuck, just copy this README and your code into ChatGPT and ask things like:
+
+“What is wrong with my BLIP captioning function?”
+
+“How do I run object detection on a batch of images?”
+
+“Can you generate a test for my recognize_text.py module?”
+
+“How do I send a caption to a local LLM for tagging?”
+
+
+📦 Project Structure
+
+VisionOps/
+├── main.py
+├── tests/
+│ ├── __init__.py
+│ ├── assets/            # Test images for OCR
+│ │   └── car_image_test.jpg
+│ ├── test_recognize_text.py # Validates OCR data extraction
+├── vision/
+│ ├── __init__.py
+│ ├── detect_objects.py # Object detection using YOLOv8
+│ ├── recognize_text.py # Text recognition using Tesseract OCR
+│ ├── describe_image.py # Semantic image description using CLIP/BLIP
+│ ├── utils.py          # Helper functions for verification and parsing OCR/L
+├── llm/
+│   └── llm_integration_api_rest.py  # REST API client for communicating with local LLM server (e.g., Gemma)
+├── requirements.txt
+└── assets/
+    └── production_image_example.jpg
+
+⚙️ Setup Instructions
+
+Create env Ubuntu / Linux
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+Create env Windows (PowerShell)
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+
+Create env in MacOs
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+🚀 Running the Project
+
+python main.py
+
+🧪 Running Tests
+
+pytest tests/
+
+👤 Author
+Cecere Michel
+WebDevelopper fullstack
+🔗 LinkedIn
+
+Licence photo
+https://www.pexels.com/photo/blue-bmw-sedan-near-green-lawn-grass-170811/ 
+https://www.pexels.com/photo/gray-mercedez-benz-amg-112460/
+
+Photo by Mike Bird, Free to use

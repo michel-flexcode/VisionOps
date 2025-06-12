@@ -1,0 +1,45 @@
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary or log files
+*.log
+*.tmp
+*.swp
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Generated CSV files or result data
+*.csv
+
+# Generated images (if applicable)
+# assets/*.png
+# assets/*.jpg
+# assets/*.jpeg
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+
+# Weights and model files
+yolov8n.pt
