@@ -31,10 +31,16 @@ if __name__ == "__main__":
         "List the detected brands. If none are clearly identifiable, respond with 'No car brand detected.'"
     )
 
-    # Step 5: Optional Send prompt to LLM and get the response
+    # Step 5: Send prompt to LLM and handle possible errors and empty response
     llm_response = send_description_to_llm(prompt)
-    print("🤖 LLM response:", llm_response)
 
+    if not llm_response:
+        print("❌ No response received from the LLM. Probably you forget to launch the servor ?")
+    elif llm_response.startswith("You probably you forget to launch the servor ? Error communicating with the LLM:") or llm_response.startswith("Error:"):
+        print(f"❌ LLM error: {llm_response}")
+    else:
+        print("🤖 LLM response:", llm_response)
     # Optional: parse and verify LLM response for further processing
-    verified_items = parse_llm_response_and_verify(llm_response)
-    print("✅ Verified items from LLM response:", verified_items)
+        verified_items = parse_llm_response_and_verify(llm_response)
+        print("✅ Verified items from LLM response:", verified_items)
+
