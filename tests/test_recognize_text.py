@@ -1,5 +1,5 @@
 ## This example test is tailored for a car-related use case ##
-## It is provided as an illustration—you don’t need it to run the program, 
+## It is provided as an illustration — you don’t need it to run the program, 
 ## but writing such tests is essential since CLIP/BLIP outputs are not always 100% accurate. ##
 
 # To run this test, execute from the project root:

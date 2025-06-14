@@ -3,7 +3,7 @@ from vision.detect_objects import detect_objects
 from vision.recognize_text import ocr_text_on_objects
 from vision.describe_image import get_caption
 from llm.llm_integration_api_rest import send_description_to_llm
-from vision.utils import verification_items_from_llm_response, parse_llm_response_and_verify
+from vision.utils import parse_llm_response_and_verify
 
 if __name__ == "__main__":
     image_path = "assets/production_image_example.jpg"
