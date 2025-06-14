@@ -78,17 +78,19 @@ https://www.pexels.com/photo/gray-mercedez-benz-amg-112460/
 
 Photos by Mike Bird, Free to use
 
-Third-Party Licenses
+Dependencies and Licenses
 
-This project uses third-party libraries with their own licenses:
+This software depends on several third-party libraries, each under their own licenses:
 
-- pandas: BSD 3-Clause License
-- transformers: Apache 2.0 License
-- torch: BSD 3-Clause License
-- Pillow: PIL Software License (BSD-like)
-- opencv-python: BSD 3-Clause License
-- pytesseract: Apache 2.0 License
-- ultralytics: MIT License
-- pytest: MIT License
+| Library       | License           | Link                                            |
+|---------------|-------------------|-------------------------------------------------|
+| pandas        | BSD 3-Clause      | https://github.com/pandas-dev/pandas/blob/main/LICENSE |
+| transformers  | Apache 2.0        | https://github.com/huggingface/transformers/blob/main/LICENSE |
+| torch         | BSD-style         | https://github.com/pytorch/pytorch/blob/master/LICENSE |
+| Pillow        | HPND              | https://github.com/python-pillow/Pillow/blob/main/LICENSE |
+| opencv-python | BSD 3-Clause      | https://github.com/opencv/opencv/blob/master/LICENSE |
+| pytesseract   | Apache 2.0        | https://github.com/madmaze/pytesseract/blob/master/LICENSE |
+| ultralytics   | GPLv3             | https://github.com/ultralytics/yolov5/blob/master/LICENSE |
+| pytest        | MIT               | https://github.com/pytest-dev/pytest/blob/main/LICENSE |
 
 Please refer to the respective projects for full license texts.
