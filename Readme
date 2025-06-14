@@ -77,3 +77,18 @@ https://www.pexels.com/photo/blue-bmw-sedan-near-green-lawn-grass-170811/
 https://www.pexels.com/photo/gray-mercedez-benz-amg-112460/
 
 Photos by Mike Bird, Free to use
+
+Third-Party Licenses
+
+This project uses third-party libraries with their own licenses:
+
+- pandas: BSD 3-Clause License
+- transformers: Apache 2.0 License
+- torch: BSD 3-Clause License
+- Pillow: PIL Software License (BSD-like)
+- opencv-python: BSD 3-Clause License
+- pytesseract: Apache 2.0 License
+- ultralytics: MIT License
+- pytest: MIT License
+
+Please refer to the respective projects for full license texts.
