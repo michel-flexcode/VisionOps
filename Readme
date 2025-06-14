@@ -1,4 +1,5 @@
-VisionOps
+🧠 VisionOps – Vision AI Toolkit
+VisionOps is a modular, testable AI toolkit that combines computer vision and LLM integration for image understanding and captioning tasks.
 
 💡 Tip: If you get stuck, just copy this README and your code into ChatGPT and ask things like:
 
@@ -32,22 +33,27 @@ VisionOps/
 └── assets/
     └── production_image_example.jpg
 
-⚙️ Setup Instructions
 
-Create env Ubuntu / Linux
+🚀 Installation
+
+git clone https://github.com/michel-flexcode/VisionOps.git
+cd VisionOps
+
+⚙️ Setup Instructions – Virtual Environment & Dependencies
+
+🐧 Create env Ubuntu / Linux
 
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-Create env Windows (PowerShell)
+🪟 Create env Windows (PowerShell)
 
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
-
-Create env in MacOs
+🍎 Create env in MacOs
 
 python3 -m venv venv
 source venv/bin/activate

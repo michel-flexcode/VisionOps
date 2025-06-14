@@ -1,9 +1,16 @@
-## This example test is tailored for a car-related use case ##
-## It is provided as an illustration — you don’t need it to run the program, 
-## but writing such tests is essential since CLIP/BLIP outputs are not always 100% accurate. ##
+"""
+📸 Test Module – Image Captioning with CLIP/BLIP
 
-# To run this test, execute from the project root:
-# pytest tests/test_recognize_text.py
+This test validates that the image captioning system correctly identifies car-related content.
+It focuses on detecting either known car brands or general car-related keywords.
+
+🧪 Note: These tests serve just as examples for a car-related use case.
+They are not required to run the core app, but they demonstrate how to validate the behavior
+of the image captioning pipeline — especially useful since CLIP/BLIP outputs can be inconsistent.
+
+💡 To run from the project root:
+    pytest tests/test_recognize_text.py
+"""
 
 import pytest
 from vision.describe_image import get_caption

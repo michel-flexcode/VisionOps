@@ -16,7 +16,7 @@ def get_caption(image_path: str) -> str:
     image = Image.open(image_path).convert("RGB")
     
     # Load BLIP processor and model
-    processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+    processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base", use_fast=True)
     model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
     # Use CPU explicitly (or switch to 'cuda' if available)
